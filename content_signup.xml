@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:src="@drawable/ic_person_black_24dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:id="@+id/profile_img"
+            android:background="@drawable/image_border"
+            />
+
+        <ImageButton
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            android:id="@+id/imgbutton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circular_button"
+
+            android:textColor="#fff"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+
+            android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/contact"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Contact no."
+            android:layout_gravity="center"
+            android:inputType="number"
+            />
+        <EditText
+            android:id="@+id/facebook"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Facebook URL"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/linkedin"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="LinkedIn"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/instagram"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Instagram"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/codechef"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Codechef"
+            android:layout_gravity="center"
+            />
+        </LinearLayout>
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SIGNUP"
+            android:background="#9b1003"
+            android:textColor="#fff"
+            android:layout_marginBottom="20dp"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
